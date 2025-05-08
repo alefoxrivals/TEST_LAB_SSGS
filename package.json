@@ -1,0 +1,14 @@
+{
+  "name": "testlab_ssgs",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Alessandro Alice",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
