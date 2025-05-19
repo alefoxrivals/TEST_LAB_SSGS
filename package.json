@@ -4,7 +4,8 @@
   "description": "test",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "dev": "node ./src/app.js",
+    "test": "jest --coverage"
   },
   "author": "Alessandro Alice",
   "license": "ISC",
