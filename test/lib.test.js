@@ -70,4 +70,9 @@ describe("calculateResult Function", () => {
         expect(calculateResult(Operation.MUL, -5, -3)).toBe(15);
         expect(calculateResult(Operation.DIV, -6, -3)).toBe(2);
     });
+
+    test("chain operations", () => {
+        const a = calculateResult(Operation.SUM, 22, -7);
+        expect(calculateResult(Operation.DIV, a, -3)).toBe(-5);
+    });
 });
